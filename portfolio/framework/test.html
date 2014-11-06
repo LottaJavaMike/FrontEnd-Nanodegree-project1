@@ -13,84 +13,64 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
+	<header>
+		<div class="container">	
+			<div class="row"> 
+			<!-- This is first row with logo and title -->
+				<div class="col-md-6">
+					<img class="title-logo" src="./images/LogoColorNoText250x250.jpg" alt="Contemplating Tech">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super text-thin">Michael Shea</h1>
+					<h4>Front-End Samurai</h4>
+				</div>
+			</div>
+	</header>
+	<main>
+			<div class="row">
+				<!-- This 2nd row is for the horizontal rule -->
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
 
-	<div class="container">
-		
-		<div class="row"> 
-		<!-- This is first row with logo and title -->
-			<div class="col-md-6">
-				<img class="title-logo" src="./images/LogoColorNoText250x250.jpg" alt="Contemplating Tech">
+			<div class="row">
+			<!-- This is 3rd row with the code image spanning across page -->
+				<div class="col-md-12">
+				<img class="img-responsive" src="./images/socialimage.jpg" alt="main image">
+				<!-- image from http://pixabay.com/en/code-technology-software-internet-459070/ -->
+				</div>
 			</div>
-			<div class="col-md-6 text-right text-uppercase">
-				<h1 class="title-super text-thin">Michael Shea</h1>
-				<h4>Front-End Samurai</h4>
+			
+			<div class="row">
+				<!-- 4th row is for the Featured Work section title -->
+				<div class="col-md-12 text-left">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
 			</div>
-		</div>
-		
-		<div class="row">
-			<!-- This 2nd row is for the horizontal rule -->
-			<div class="col-md-12">
-				<hr>
-			</div>
-		</div>
 
-		<div class="row">
-		<!-- This is 3rd row with the code image spanning across page -->
-			<div class="col-md-12">
-			<img class="img-responsive" src="./images/socialimage.jpg" alt="main image">
-			<!-- image from http://pixabay.com/en/code-technology-software-internet-459070/ -->
+			<div class="row text-center">
+			<!-- 5th row defines the space for the 3 features projects. Initially these point to blog, about.me, github -->
+				<div class="col-md-4">
+					<!-- Image source: http://pixabay.com/en/blogging-social-media-439151/ -->
+					<img class="img-responsive img-rounded" src="./images/blogging-640.jpg" alt="Contemplating Tech" data-toggle="modal" data-target="#project1">
+					<h3 class="text-uppercase">The Blog</h3>
+					<a href="http://www.contemplatingtech.com" target="_blank">Contemplating Tech</a>
+				</div>
+				<div class="col-md-4">
+					<!-- Imge source: http://pixabay.com/en/people-user-meeting-me-employee-23356/ -->
+					<img class="img-responsive img-rounded" src="./images/people-640.png" alt="About Me">
+					<h3 class="text-uppercase">the it guy you don't know</h3>
+					<a href="http://about.me/emtshea" target="_blank">About.Me</a>
+				</div>
+				<div class="col-md-4">
+					<!-- img src http://pixabay.com/en/space-earth-bug-program-code-19070-->
+					<img class="img-responsive img-rounded" src="./images/spacecode-640.jpg" alt="GitHub">
+					<h3 class="text-uppercase">My GitHub Projects</h3>
+					<a href="http://github.com/LottaJavaMike" target="_blank">GitHub</a>
+				</div>
 			</div>
 		</div>
-		
-		<div class="row">
-			<!-- 4th row is for the Featured Work section title -->
-			<div class="col-md-12 text-left">
-				<h2 class="text-muted">Featured Work</h2>
-			</div>
-		</div>
-
-		<div class="row text-center">
-		<!-- 5th row defines the space for the 3 features projects. Initially these point to blog, about.me, github -->
-			<div class="col-md-4">
-				<!-- Image source: http://pixabay.com/en/blogging-social-media-439151/ -->
-				<img class="img-responsive img-rounded" src="./images/blogging-640.jpg" alt="Contemplating Tech" data-toggle="modal" data-target="#project1">
-				<h3 class="text-uppercase">The Blog</h3>
-				<a href="http://www.contemplatingtech.com" target="_blank">Contemplating Tech</a>
-			</div>
-			<div class="col-md-4">
-				<!-- Imge source: http://pixabay.com/en/people-user-meeting-me-employee-23356/ -->
-				<img class="img-responsive img-rounded" src="./images/people-640.png" alt="About Me">
-				<h3 class="text-uppercase">the it guy you don't know</h3>
-				<a href="http://about.me/emtshea" target="_blank">About.Me</a>
-			</div>
-			<div class="col-md-4">
-				<!-- img src http://pixabay.com/en/space-earth-bug-program-code-19070-->
-				<img class="img-responsive img-rounded" src="./images/spacecode-640.jpg" alt="GitHub">
-				<h3 class="text-uppercase">My GitHub Projects</h3>
-				<a href="http://github.com/LottaJavaMike" target="_blank">GitHub</a>
-			</div>
-		</div>
-	</div>
-
-<!--Modal-->
-<!-- included in Proj1 for interactivity, will probably get removed for remaining projects -->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-
-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title" id="myModalLabel">ContemplatingTech</h4>
-			</div>
-			<div class="modal-body">
-				<img class="img-responsive" src="./images/blogging-640.jpg" alt="Contemplating Tech">
-				This is my personal brain dumping ground for most things tech.  I've been at the desktop support thing for 20+ years now...there might be a bit
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
+	</main>
 </body>
 </html>
