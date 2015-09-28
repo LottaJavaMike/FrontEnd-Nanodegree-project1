@@ -3,7 +3,7 @@
 		display: none;
 	}
 }
-html {
+.container {
 	background-color: white;
 	background-image: url(../images/socialimage.jpg);
 	background-position: center center;
